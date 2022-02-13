@@ -22,6 +22,8 @@ import ujson as json
 import uvloop
 from aiotg import Bot, Chat
 
+with open('config.json') as f:
+	CONFIG = json.load(f)
 
 bot = Bot(BOT_TOKEN, json_serialize=json.dumps, json_deserialize=json.loads)
 quran_index = make_index()
