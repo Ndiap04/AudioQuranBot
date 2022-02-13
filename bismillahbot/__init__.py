@@ -1,1 +1,1 @@
-from .quran import make_index
+from .quran import Quran, make_index
