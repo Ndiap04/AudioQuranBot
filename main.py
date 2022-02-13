@@ -16,7 +16,7 @@
 import asyncio
 import signal
 from time import time
-from bismillahbot import make_index
+from bismillahbot import Quran, make_index
 import aioredis
 import ujson as json
 import uvloop
