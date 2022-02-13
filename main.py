@@ -22,8 +22,7 @@ import ujson as json
 import uvloop
 from aiotg import Bot, Chat
 
-
-from secret import token
+from config import BOT_TOKEN
 
 
 bot = Bot(BOT_TOKEN, json_serialize=json.dumps, json_deserialize=json.loads)
