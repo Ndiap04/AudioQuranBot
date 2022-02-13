@@ -21,7 +21,7 @@ import aioredis
 import ujson as json
 import uvloop
 from aiotg import Bot, Chat
-from bismillahbot import Quran, make_index
+
 
 from secret import token
 
