@@ -21,7 +21,6 @@ import aioredis
 import ujson as json
 import uvloop
 from aiotg import Bot, Chat
-import BOT_TOKEN
 
 
 bot = Bot(BOT_TOKEN, json_serialize=json.dumps, json_deserialize=json.loads)
